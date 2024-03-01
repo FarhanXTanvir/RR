@@ -111,6 +111,7 @@ header p{
 .route-finder input{
   margin-bottom: 5px;
   text-align: center;
+width: 70%;
   font-size: 17px;
   display: inline-block;
 }
