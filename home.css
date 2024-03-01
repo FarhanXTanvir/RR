@@ -1,78 +1,87 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body{
-  font-family: sans-serif;
   padding: 10px;
   background: #222;
 }
 
 /* Header/Blog Title */
-.header {
-  padding: 30px;
+header {
+  padding: 1%;
   color: orange;
   text-align: center;
   background: #222;
 }
 
-.header h1 {
+header h1 {
   font-size: 50px;
+}
+header h1 span{
+  color: white;
+}
+header p{
+  color: #85eaaa;
+  margin-bottom: 1.5%;
 }
 
 /* Style the top navigation bar */
 .topnav {
+  background: #00000027;
+  padding: 1%;
   display: flex;
-  background-color: black;
-  border: 1px solid white;
   text-align: right;
   justify-content: right;
-  color: black;
   overflow: hidden;
-  
-}
-.topnav .logo{
-  display: flex;
-  color: rgb(2, 0, 0);
-  border: 1px solid white;
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   color: orange;
-  background-color: black;
-  border: 1px solid white;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 15px;
   text-decoration: none;
 }
 
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: rgb(202, 139, 23);
+  background: orange;
   color: black;
 }
-.topnav .logo{
-  color: white;
-}
-/* Create two unequal columns that floats next to each other */
+
 /* Left column */
+
 .leftcolumn {   
+  color: white;
   float: left;
   width: 60%;
 }
 
 /* Right column */
 .rightcolumn {
+  color: white;
   float: left;
   width: 40%;
-  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
-  padding-left: 20px;
+  padding-left: 2%;
 }
-
+.services h3{
+  color: black;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+  background: orange;
+}
+.services li{
+  list-style: none;
+}
 .route-finder {
   background: #222;
   color: orange;
@@ -80,12 +89,17 @@ body{
   padding: 20px;
   text-align:center;
 }
+.route-finder h1{
+  text-align: center;
+  margin-bottom: 2%;;
+}
 .route-finder h2{
     text-align: center;
 }
 .route-finder .welcome{
-    margin-bottom: 50px;
-    font-size: 15;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 15;
 }
 .route-finder .form{
   font-size: 20px;
@@ -119,10 +133,12 @@ body{
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
-  padding: 20px;
+  background: #222;
+  border: white solid 1px;
+  padding: 5%;
   margin-top: 20px;
 }
+
 
 /* Clear floats after the columns */
 .row::after {
@@ -135,39 +151,59 @@ body{
 
 /* Contact Form */
 #contact h3{
-  display: flex;
-  color: rgb(255, 255, 255);
-  height: 30px;
-  align-items: center;
-  justify-content: center;
-  background-color:rgb(54, 49, 49)
+  color: black;
+  padding: 1%;
+  margin: 1% auto;
+  margin-bottom: 2%;
+  text-align: center;
+  background: orange;
 }
 #contact{
-  grid-template-rows: auto;    
-  margin-top: 100px;
-  justify-content: center;
-  display: grid;
-  color: white;
-  margin-left: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-right: auto;
-  background-color:#222;
+  padding: 3%;
 }
 #contact p{
-  margin-bottom: 10px;
+  margin-bottom: 4%;
 }
+textarea{
+  width: 100%;
+}
+
 /* Footer */
 
 
 /*  Footer Top
 --------------------------------------------------------------*/
 
+
 /* Footer Bottom */
-#footer-bottom{
-  font-weight: 700;
+/* .fbottom{
+  display:inline-block;
+  background: #000000;
+} */
+/* .footer{
+  margin: 0;
+  padding: 0;
+} */
+.copyright{
+  background: #000000;
   color: white;
-  text-decoration: none;
+  padding: 2%;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+.copyright p{
+  color: white;
+}
+.legal ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 2%;
+}
+.legal ul li a{
+  color: white;
+  font-size: 12px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -176,6 +212,7 @@ body{
     width: 100%;
     padding: 0;
   }
+  
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
@@ -185,3 +222,4 @@ body{
     width: 100%;
   }
 }
+

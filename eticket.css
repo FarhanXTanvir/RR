@@ -1,67 +1,67 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
 body{
-  font-family: sans-serif;
-  padding: 10px;
-  background: #222;
+font-family: sans-serif;
+padding: 10px;
+background: #222;
 }
 
 /* Header/Blog Title */
 header {
-  padding: 1%;
-  color: orange;
-  text-align: center;
-  background: #222;
+padding: 1%;
+color: orange;
+text-align: center;
+background: #222;
 }
 
 header h1 {
-  font-size: 50px;
+font-size: 50px;
 }
 header h1 span{
-  color: white;
+color: white;
 }
 header p{
-  color: #85eaaa;
-  margin-bottom: 1.5%;
+color: #85eaaa;
+margin-bottom: 1.5%;
 }
 
 /* Style the top navigation bar */
 .topnav {
-  background: #00000027;
-  padding: 1%;
-  display: flex;
-  text-align: right;
-  justify-content: right;
-  overflow: hidden;
+background: #00000027;
+padding: 1%;
+display: flex;
+text-align: right;
+justify-content: right;
+overflow: hidden;
 }
 
 /* Style the topnav links */
 .topnav a {
-  float: left;
-  color: orange;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px 15px;
-  text-decoration: none;
+float: left;
+color: orange;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+padding: 5px 15px;
+text-decoration: none;
 }
 
 /* Change color on hover */
 .topnav a:hover {
-  background: orange;
-  color: black;
+background: orange;
+color: black;
 }
 
 #services{
-  height: 100vh;
-  width: 100%;
-  display: grid;
-  place-items: center;
+height: 100vh;
+width: 100%;
+display: grid;
+place-items: center;
 }
 h2{
 color: white;
@@ -129,6 +129,15 @@ color: #f0f0f0;
 }
 .column a:link{
 text-decoration: none;
+
+}
+form{
+    margin-bottom: 3%;
+    height: auto;
+    width: 100%;
+}
+form .to{
+    margin: 2%;
 }
 
 /* Footer */
@@ -140,51 +149,51 @@ text-decoration: none;
 
 /* Footer Bottom */
 /* .fbottom{
-  display:inline-block;
-  background: #000000;
+display:inline-block;
+background: #000000;
 } */
 /* .footer{
-  margin: 0;
-  padding: 0;
+margin: 0;
+padding: 0;
 } */
 .copyright{
-  background: #000000;
-  color: white;
-  padding: 2%;
-  margin: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 12px;
+background: #000000;
+color: white;
+padding: 2%;
+margin: 0;
+width: 100%;
+text-align: center;
+font-size: 12px;
 }
 .copyright p{
-  color: white;
+color: white;
 }
 .legal ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 2%;
+list-style: none;
+display: inline-block;
+padding: 2%;
 }
 .legal ul li a{
-  color: white;
-  font-size: 12px;
+color: white;
+font-size: 12px;
 }
 
 
 @media screen and (min-width: 768px) {
-  section {
+section {
     padding: 0 2em;
-  }
-  .column {
+}
+.column {
     flex: 0 50%;
     max-width: 50%;
-  }
+}
 }
 @media screen and (min-width: 992px) {
-  section {
+section {
     padding: 1em 3em;
-  }
-  .column {
+}
+.column {
     flex: 0 0 33.33%;
     max-width: 33.33%;
-  }
+}
 }

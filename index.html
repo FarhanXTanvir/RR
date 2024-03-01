@@ -13,114 +13,122 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-<section  class="header">
-  <div class="header">
-    <h1>Route Rover</h1>
-    <p>Your one-stop travel companion</p>
-  </div>
-  
-  <div class="topnav">
-    <a class="logo" href="index.html">RR</a>
-    <a href="#">Home</a>
-    <a href="services.html">Services</a>
-    <a href="#contact">Contact</a>
-  </div>
-  </section>
-<section class= "main">
-  <!-- 1st Row -->
-  <div class="row">
-  <!-- Left Column -->
-    <div class="leftcolumn">
-      <div class="card">
-          <div class="route-finder" style="height:auto;">
-              <h1>Welcome to RouteRover!</h1>
-              <p class="welcome">
-                  Want to find your Route no., Available transports and Pricing details for going to your next destination? 
-                  RouteRover is here on your service!! Get everything on your fingertips with a single click. 
-              </p>
-              <h2>Route Finder</h2>
-                  <div class="form">
-                      <input class="input-field" name="areas" list="areas" placeholder="Where are you now?">
-                      <datalist id="areas">
-                          <option value="Agrabad">
-                          <option value="Bahaddarhut">
-                          <option value="Boropool">
-                          <option value="Chotopool">
-                          <option value="Chowmuhni">
-                          <option value="Chawkbazar">
-                          <option value="GEC Mor">
-                          <option value="2 No. Gate">
-                          <option value="Jamalkhan">
-                          <option value="Milermatha">
-                          <option value="Muradpur">
-                          <option value="Rastarmatha">
-                          <option value="Wasa">
-                      </datelist>
-                  </div> 
-                  <div class="form">
-                      <input class="input-field" name="areas" list="areas" placeholder="Your destination?">
-                      <datalist id="areas">
-                          <option value="Agrabad">
-                          <option value="Bahaddarhut">
-                          <option value="Boropool">
-                          <option value="Chotopool">
-                          <option value="Chowmuhni">
-                          <option value="Chawkbazar">
-                          <option value="GEC Mor">
-                          <option value="2 No. Gate">
-                          <option value="Jamalkhan">
-                          <option value="Milermatha">
-                          <option value="Muradpur">
-                          <option value="Rastarmatha">
-                          <option value="Wasa">
-                      </datelist>
-                  </div>
-                  <button> Search </button>
-          </div>
-      </div>
-  </div>
-  <!-- Right Column -->
-  <div class="rightcolumn">
-    <div class="card">
-       <h3>Our Services</h3>
-       <p>Bus Ticket</p>
-       <p>Train Ticket</p>
+  <header>
+    <div class="cover">
+      <h1>R<span>oute</span> R<span>over</span></h1>
+      <p>Your one-stop travel companion</p>
     </div>
-  </div>
-  <!-- 2nd Row -->
-  <div class="row">
+  
+    <!-- Navigation bar -->
+    <div class="topnav">
+      <!-- <a class="logo" href="index.html">RR</a> -->
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    </div>
+  </header>
+  <section class= "main">
+    <!-- 1st Row -->
+    <div class="row">
     <!-- Left Column -->
-      <div class="leftcolumn">
+      <div class="leftcolumn" id="Left-col-rf">
         <div class="card">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description</h5>
-          <div class="fakeimg" style="height:200px;">Image</div>
-          <p> </p>
+            <div class="route-finder" style="height:auto;">
+                <h1>Welcome to RouteRover!</h1>
+                <p class="welcome">
+                    Want to find your Route no., Available transports and Pricing details for going to your next destination? 
+                    RouteRover is here on your service!! Get everything on your fingertips with a single click. 
+                </p>
+                <h2>Route Finder</h2>
+                    <div class="form">
+                        <input class="input-field" name="areas" list="areas" placeholder="Where are you now?">
+                        <datalist id="areas">
+                            <option value="Agrabad">
+                            <option value="Bahaddarhut">
+                            <option value="Boropool">
+                            <option value="Chotopool">
+                            <option value="Chowmuhni">
+                            <option value="Chawkbazar">
+                            <option value="GEC Mor">
+                            <option value="2 No. Gate">
+                            <option value="Jamalkhan">
+                            <option value="Milermatha">
+                            <option value="Muradpur">
+                            <option value="Rastarmatha">
+                            <option value="Wasa">
+                        </datelist>
+                    </div> 
+                    <div class="form">
+                        <input class="input-field" name="areas" list="areas" placeholder="Your destination?">
+                        <datalist id="areas">
+                            <option value="Agrabad">
+                            <option value="Bahaddarhut">
+                            <option value="Boropool">
+                            <option value="Chotopool">
+                            <option value="Chowmuhni">
+                            <option value="Chawkbazar">
+                            <option value="GEC Mor">
+                            <option value="2 No. Gate">
+                            <option value="Jamalkhan">
+                            <option value="Milermatha">
+                            <option value="Muradpur">
+                            <option value="Rastarmatha">
+                            <option value="Wasa">
+                        </datelist>
+                    </div>
+                    <button> Search </button>
+            </div>
         </div>
     </div>
     <!-- Right Column -->
-    <div class="rightcolumn">
+    <div class="rightcolumn" id="right-col-rf">
       <div class="card">
-        <div id="contact">
-          <h3> Contact Form </h3>
-          <p>While using our services if you face any inconvenience then please inform us.</p>
-          <form action="forms/contact.php" method="post">
-              <p> Email: <input type="text" placeholder="yourname@email.com" name = "name"> <br></p>
-                  <p> Message: </p> <textarea placeholder="Type here..." name="comments" cols="25" rows="5"></textarea> <input type="submit"></p>
-                  
-          </form>
-      </div>
+        <div class="services">
+          <h3>Our Services</h3>
+          <ul>
+            <li>- Bus Ticket</li>
+            <li>- Train Ticket</li>          
+          </ul>
+        </div>
       </div>
     </div>
-</section>
-<hr>
-<div id="footer-bottom">
-  <div class="container">
+    <!-- 2nd Row -->
     <div class="row">
-      <p>© 2024 RouteRover. Website designed by Farhan & Shifat</a></p>
+      <!-- Left Column -->
+        <div class="leftcolumn">
+          <div class="card">
+          </div>
+      </div>
+      <!-- Right Column -->
+      <div class="rightcolumn">
+        <div class="card">
+          <div id="contact">
+            <h3> Contact Form </h3>
+            <p>While using our services if you face any inconvenience then please inform us.</p>
+            <form action="forms/contact.php" method="post">
+                <p> Email: <input type="text" placeholder="yourname@email.com" name = "name"> <br></p>
+                    <p> Message: </p> <textarea placeholder="Type here..." name="comments" cols="30" rows="10"></textarea> <input type="submit"></p>
+                    
+            </form>
+        </div>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <div class="copyright">
+      <p>&copy 2024 RouteRover. All rights reserved.</p> 
     </div>
-  </div>
-</div>
+    <div class="legal">
+        <ul> 
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Payment Methods</a></li>
+        </ul>        
+    </div>
+  </footer>
 </body>
 </html>
 
