@@ -90,7 +90,7 @@
         </div>
     </div>
     <!-- Right Column -->
-    <div class="rightcolumn" id="right-col-rf">
+    <div class="rightcolumn">
       <div class="card">
         <div class="services">
           <h3>Our Services</h3>
@@ -98,6 +98,37 @@
             <li>- Bus Ticket</li>
             <li>- Train Ticket</li>          
           </ul>
+        </div>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <div class="userform" id="login">
+          <h3>Log In</h3>
+          <div class="lgf">
+            <form action="/action_page.php" method="post">
+              <input type="email" name="" placeholder="Email" required> <br>
+              <input type="password" name="" placeholder="Password" required> <br>
+              <input type="submit" value="Submit">
+            </form> <br>
+          </div>
+          <p>Don't have an account  yet? <a href="#signup">Sign up now</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <div class="userform" id="signup">
+          <h3>Sign Up</h3>
+          <div class="sgf">
+            <form action="/action_page.php" method="post">
+              <input type="email" name="" placeholder="Email" required> <br>
+              <input type="password" name="" placeholder="Password" required> <br>
+              <input type="password" name="" placeholder="Confirm Password" required> <br>
+              <input type="submit" value="Submit"> <br><br>
+            </form>
+          </div>
+          <p>Already  a member? <a href="#login"> Log In now </a></p>
         </div>
       </div>
     </div>
@@ -115,9 +146,8 @@
             <h3> Contact Form </h3>
             <p>While using our services if you face any inconvenience then please inform us.</p>
             <form action="forms/contact.php" method="post">
-                <p> Email: <input type="text" placeholder="yourname@email.com" name = "name"> <br></p>
-                    <p> Message: </p> <textarea placeholder="Type here..." name="comments" cols="30" rows="10"></textarea> <input type="submit"></p>
-                    
+                <p> Email: <input type="text" placeholder="yourname@email.com" name = "email" required=""> <br></p>
+                <p> Message: </p> <textarea placeholder="Type here..." name="comments" cols="30" rows="10"></textarea> <input type="submit"></p>  
             </form>
         </div>
         </div>

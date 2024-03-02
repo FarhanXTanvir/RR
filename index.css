@@ -66,8 +66,8 @@ body{
 .route-finder input{
   margin-bottom: 5px;
   text-align: center;
-width: 70%;
-  font-size: 17px;
+  width: 90%;
+  font-size: 100%;
   display: inline-block;
 }
 .route-finder button{
@@ -103,7 +103,29 @@ width: 70%;
   clear: both;
 }
 /* sign up */
+.userform h3{
+  color: black;
+  padding: 1%;
+  margin: 1% auto;
+  margin-bottom: 2%;
+  text-align: center;
+  background: orange;
+}
 
+/* sign in */
+.userform{
+  text-align: center;
+}
+.userform .lgf{
+  width: 50%;
+  margin: 10px auto;
+}
+.userform .sgf{
+  display: none;
+}
+.userform .sgf:active{
+  display: block;
+}
 
 /* Contact Form */
 #contact h3{
