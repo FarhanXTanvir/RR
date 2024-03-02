@@ -19,12 +19,18 @@ header p{
 /* ---------Navigation Bar-------------- */
 .top-nav{
   background: #191818;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding: 0% 0%;
 }
 .top-nav ul{
   list-style: none;
+  display: flex;
 }
 .top-nav li{
-  padding: 0.5%;
+  text-align: center;
+  padding: 5px 16px;
 }
 .top-nav a{
   color: orange;
@@ -37,4 +43,14 @@ header p{
   color: black;
   padding: 5px;
 }
-
+/* ----------------- Media Query ---------------*/
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 440px) {
+  .top-nav{
+    display: inline-block;
+    padding: 2% 20%;
+  }
+  .top-nav ul{
+    display: inline-block;
+  }
+}
