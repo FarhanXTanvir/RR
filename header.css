@@ -24,11 +24,11 @@ header p{
   list-style: none;
 }
 .top-nav li{
-  padding: 1%;
+  padding: 0.5%;
 }
 .top-nav a{
   color: orange;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -37,3 +37,4 @@ header p{
   color: black;
   padding: 5px;
 }
+

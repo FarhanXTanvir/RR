@@ -11,7 +11,7 @@ body{
 
 /* --------- eTicket Section -------------- */
 
-h2{
+.et h2{
     color: white;
     text-align: center;
     padding: 1%;
@@ -24,6 +24,37 @@ h2{
     width: 100%;
     padding: 0 1em 1em 1em;
     text-align: center;
+}
+.et form{
+    text-align: center;
+}
+.et .from{
+    text-align: center;
+}
+.et .to{
+    text-align: center;
+}
+.et input{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+.et button{
+    background: #5cf393;
+    color: black;
+    margin-left: 10px; 
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px; padding: 5px; width: 70px;
+}
+.et button:hover{
+    background: rgb(115, 205, 148);
+    color: rgb(0, 0, 0);
+}
+.et button:active{
+    background: #5cf393;
+    opacity: 0.6;
+    color: rgb(0, 0, 0);
 }
 .card {
     width: 100%;
