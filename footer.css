@@ -1,0 +1,33 @@
+/* ----------------- Footer Section --------------- */
+
+/* ----------------- Footer Top ---------------*/
+
+
+
+/* ----------------- Footer Bottom ---------------*/
+
+/* ----------------- Copyright Section ---------------*/
+.copyright{
+  background: #000000;
+  color: white;
+  padding: 2%;
+  margin: 0%;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* ----------------- Legal Section --------------- */
+.legal ul{
+  padding: 1.5%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.legal ul li{
+  padding: 1.5%;
+}
+.legal a{
+  color: white;
+  font-size: 12px;
+}

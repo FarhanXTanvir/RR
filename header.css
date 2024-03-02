@@ -1,0 +1,39 @@
+/*--------Header Section----------*/
+header {
+  color: orange;
+  text-align: center;
+  background: #222;
+}
+
+header h1 {
+  font-size: 50px;
+}
+header h1 span{
+  color: white;
+}
+header p{
+  color: #85eaaa;
+  margin-bottom: 1.5%;
+}
+
+/* ---------Navigation Bar-------------- */
+.top-nav{
+  background: #191818;
+}
+.top-nav ul{
+  list-style: none;
+}
+.top-nav li{
+  padding: 1%;
+}
+.top-nav a{
+  color: orange;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.top-nav li a:hover{
+  background: orange;
+  color: black;
+  padding: 5px;
+}

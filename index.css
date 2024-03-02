@@ -1,4 +1,4 @@
-* {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -6,59 +6,14 @@
 }
 
 body{
-  padding: 10px;
   background: #222;
 }
 
-/* Header/Blog Title */
-header {
-  padding: 1%;
-  color: orange;
-  text-align: center;
-  background: #222;
+/* ------Main Body------- */
+.main{
+  padding: 0.5%;
 }
-
-header h1 {
-  font-size: 50px;
-}
-header h1 span{
-  color: white;
-}
-header p{
-  color: #85eaaa;
-  margin-bottom: 1.5%;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  background: #00000027;
-  padding: 1%;
-  display: flex;
-  text-align: right;
-  justify-content: right;
-  overflow: hidden;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  color: orange;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px 15px;
-  text-decoration: none;
-}
-
-
-/* Change color on hover */
-.topnav a:hover {
-  background: orange;
-  color: black;
-}
-
 /* Left column */
-
 .leftcolumn {   
   color: white;
   float: left;
@@ -168,44 +123,7 @@ textarea{
   width: 100%;
 }
 
-/* Footer */
-
-
-/*  Footer Top
---------------------------------------------------------------*/
-
-
-/* Footer Bottom */
-/* .fbottom{
-  display:inline-block;
-  background: #000000;
-} */
-/* .footer{
-  margin: 0;
-  padding: 0;
-} */
-.copyright{
-  background: #000000;
-  color: white;
-  padding: 2%;
-  margin: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 12px;
-}
-.copyright p{
-  color: white;
-}
-.legal ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 2%;
-}
-.legal ul li a{
-  color: white;
-  font-size: 12px;
-}
-
+/* ----------------- Media Query ---------------*/
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
