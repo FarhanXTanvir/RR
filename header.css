@@ -74,5 +74,6 @@ header p{
   }
   .top-nav ul{
     display: inline-block;
+				width: 100%;
   }
 }
