@@ -10,10 +10,22 @@ body{
 }
 
 /* ---------About Section  -------------- */
+
 .about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 2%;
+  padding: 5%;
   color: white;
+  background: #333;
+}
+.abt-h2
+{
   text-align: center;
-  padding: 2%;
+  color: white;
+  margin-top: 1.5%;
 }
   
 /* ----------------- Media Query ---------------*/  

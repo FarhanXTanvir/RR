@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en"> 
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Register | RouteRover </title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"> 
+  
+   </head>
+<body>
+    <header>
+        <div class="cover">
+          <h1>R<span>oute</span> R<span>over</span></h1>
+          <p>Your one-stop travel companion</p>
+        </div>
+      
+        <!-- Navigation bar -->
+        <nav class="top-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <div class="nv-button" >
+            <a href="login.html"><button>Login</button></a>
+            <a href="register.html"><button>Register</button></a>
+          </div>
+          
+        </nav>
+      </header>
+  <section>
+    <div class="signin">
+        <div class="content"> 
+            <h2>REGISTER</h2> 
+            <form action="authenticate.php" method="post">
+                <div class="form"> 
+                    <div class="inputBox"> 
+                        <input type="text" name="username" id="username" required> <i class="fas fa-user"> Username </i> 
+                    </div> 
+
+                    <div class="inputBox"> 
+                        <input type="password" name="password" id="password" required> <i class="fas fa-lock"> Password </i>
+                    </div> 
+
+                    <div class="links"> <p>Already a member?</p> <a href="login.html">Signin</a></div> 
+
+                    <div class="inputBox"> 
+                        <input type="submit" value="Sign Up"> 
+                    </div> 
+                </div>
+            </form> 
+        </div> 
+   </div> 
+  </section>
+  <!-- ----------------- Footer Section --------------- -->
+  <footer>
+    <div class="ftop">
+
+    </div>
+    <div class="fbtm">
+      <div class="copyright">
+        <p>
+          &copy; 2024 Route Rover. All rights reserved
+        </p>
+      </div>
+      <div class="legal">
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Condition</a></li>
+          <li><a href="#">Payment Methods</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

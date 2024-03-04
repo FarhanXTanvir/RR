@@ -8,7 +8,6 @@
 body{
   background: #222;
 }
-
 /* ------Main Body------- */
 .main{
   padding: 0.5%;
@@ -46,6 +45,7 @@ body{
 }
 .route-finder h1{
   text-align: center;
+  font-size: 30px;
   margin-bottom: 2%;;
 }
 .route-finder h2{
@@ -71,20 +71,20 @@ body{
   display: inline-block;
 }
 .route-finder button{
-    color: rgb(255, 255, 255);
-    background-color: rgb(42, 171, 70);
-    margin-left: 10px; 
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 10px; padding: 5px; width: 70px;
+  color: black;
+  background: rgb(78, 238, 163);
+  margin-left: 10px; 
+  font-size: 15px;
+  font-weight: 750;
+  border-radius: 10px; 
+  padding: 5px; 
+  width: 70px;
 }
 .route-finder button:hover{
-    opacity: 0.8;
-    color: black;
+  background: rgb(148, 185, 168);
 }
 .route-finder button:active{
-    opacity: 0.6;
-    color: rgb(168, 233, 225);
+  background: rgb(24, 232, 138);
 }
 
 /* Add a card effect for articles */
@@ -102,30 +102,6 @@ body{
   display: table;
   clear: both;
 }
-/* sign up */
-.userform h3{
-  color: black;
-  padding: 1%;
-  margin: 1% auto;
-  margin-bottom: 2%;
-  text-align: center;
-  background: orange;
-}
-
-/* sign in */
-.userform{
-  text-align: center;
-}
-.userform .lgf{
-  width: 50%;
-  margin: 10px auto;
-}
-.userform .sgf{
-  display: none;
-}
-.userform .sgf:active{
-  display: block;
-}
 
 /* Contact Form */
 #contact h3{
@@ -140,10 +116,10 @@ body{
   padding: 3%;
 }
 #contact p{
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 textarea{
-  width: 100%;
+  width: 65%;
 }
 
 /* ----------------- Media Query ---------------*/

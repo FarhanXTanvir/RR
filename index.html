@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RouteRover</title>
+    <title> Home | RouteRover </title>
 
     <!-- Style Sheet -->
     <link rel="stylesheet" href="index.css">
@@ -34,6 +34,11 @@
         <li><a href="about.html">About</a></li>
         <li><a href="index.html#contact">Contact</a></li>
       </ul>
+      <div class="nv-button" >
+        <a href="login.html"><button>Login</button></a>
+        <a href="register.html"><button>Register</button></a>
+      </div>
+      
     </nav>
   </header>
   <section class= "main">
@@ -101,57 +106,21 @@
         </div>
       </div>
     </div>
-    <div class="rightcolumn">
-      <div class="card">
-        <div class="userform" id="login">
-          <h3>Log In</h3>
-          <div class="lgf">
-            <form action="/action_page.php" method="post">
-              <input type="email" name="" placeholder="Email" required> <br>
-              <input type="password" name="" placeholder="Password" required> <br>
-              <input type="submit" value="Submit">
-            </form> <br>
-          </div>
-          <p>Don't have an account  yet? <a href="#signup">Sign up now</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="rightcolumn">
-      <div class="card">
-        <div class="userform" id="signup">
-          <h3>Sign Up</h3>
-          <div class="sgf">
-            <form action="/action_page.php" method="post">
-              <input type="email" name="" placeholder="Email" required> <br>
-              <input type="password" name="" placeholder="Password" required> <br>
-              <input type="password" name="" placeholder="Confirm Password" required> <br>
-              <input type="submit" value="Submit"> <br><br>
-            </form>
-          </div>
-          <p>Already  a member? <a href="#login"> Log In now </a></p>
-        </div>
-      </div>
-    </div>
     <!-- 2nd Row -->
     <div class="row">
       <!-- Left Column -->
-        <div class="leftcolumn">
-          <div class="card">
-          </div>
-      </div>
-      <!-- Right Column -->
-      <div class="rightcolumn">
+      <div class="leftcolumn">
         <div class="card">
-          <div id="contact">
+          <div id="contact" class="contact">
             <h3> Contact Form </h3>
             <p>While using our services if you face any inconvenience then please inform us.</p>
             <form action="forms/contact.php" method="post">
                 <p> Email: <input type="text" placeholder="yourname@email.com" name = "email" required=""> <br></p>
-                <p> Message: </p> <textarea placeholder="Type here..." name="comments" cols="30" rows="10"></textarea> <input type="submit"></p>  
+                <p> Message: </p> <textarea placeholder="Type here..." name="comments" cols="25" rows="10"></textarea> <input type="submit"></p>  
             </form>
+          </div>
         </div>
-        </div>
-      </div>
+    </div>
   </section>
 <!-- ----------------- Footer Section --------------- -->
   <footer>
